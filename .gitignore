@@ -15,5 +15,16 @@ else :
 heightsq = float(heightnew) ** 2
 BMI = weightnew / heightsq
 print("your BMI is" + " " + str(BMI))
-
+if BMI < 18.5 :
+    print("You are severely underweight. take adequate amount of food")
+elif BMI < 25 :
+    print("cheers! You are in good health")
+elif BMI < 30 :
+    print("your being overweight.maintain healthy lifestyle")
+elif BMI < 35 :
+    print(" first stage of obesity. take selective food, do exercises")
+elif BMI < 40 :
+    print("second stage of obesity.take selective food, do exercises ")
+else :
+    print("Extreme obesity, death risk. Cosult a doctor")
 
